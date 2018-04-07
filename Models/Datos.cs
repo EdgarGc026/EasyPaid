@@ -32,8 +32,8 @@ namespace WebServer.Models
 
             Folios = new Dictionary<int, Folio>();
             Folios.Add(0, new Folio { NumFolio = 100, Monto = (decimal)345 });
-            Folios.Add(0, new Folio { NumFolio = 200, Monto = (decimal)345.32 });
-            Folios.Add(0, new Folio { NumFolio = 300, Monto = (decimal)345.67 });
+            Folios.Add(1, new Folio { NumFolio = 200, Monto = (decimal)345.32 });
+            Folios.Add(2, new Folio { NumFolio = 300, Monto = (decimal)345.67 });
 
         }
     }
